@@ -5,7 +5,8 @@ $(function() {
 });
 
 function hideContentImages() {
-	$('.content img, .content iframe').remove();
+	$('.content img, .content iframe, .content video').remove();
+	$('.inlineFrame img, .inlineFrame iframe, .inlineFrame video').remove();
 }
 
 function onTimer() {
