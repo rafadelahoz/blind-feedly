@@ -1,0 +1,8 @@
+#feedlyTabs, #feedlyTabsHolder, #fixedProfile {
+	background: white !important;
+	color: gray;
+}
+
+#addShortcut {
+	display: none !important;
+}

@@ -4,7 +4,7 @@
 	"name": "Blind Feedly",
 	"description": "Hides images in articles when reading in Feedly to allow safe for work reading",
 	
-	"version": "1.1",
+	"version": "1.2",
 	
 	"permissions": [
 		"http://feedly.com/*"
@@ -13,7 +13,8 @@
 	"content_scripts": [
 		{
 			"matches": ["http://feedly.com/*"],
-			"js": ["jquery.js", "bleendly.js"]
+			"js": ["jquery.js", "bleendly.js"],
+			"css": ["seemply.css"]
 		}
 	]
 }
