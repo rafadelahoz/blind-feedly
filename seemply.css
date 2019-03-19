@@ -1,8 +1,12 @@
 #feedlyTabs, #feedlyTabsHolder, #fixedProfile {
-	background: white !important;
-	color: gray;
+	background: #e5e5e5 !important;
+	color: black;
 }
 
 #addShortcut {
 	display: none !important;
+}
+
+.inlineFrame .title {
+	font-size: 18px !important;
 }
